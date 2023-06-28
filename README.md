@@ -3,5 +3,5 @@ Here are my solutions to problems from the Yandex training in algorithms 1.0 (Go
 
 [Link to the site with general information](https://yandex.ru/yaintern/algorithm-training_1)
 
-##Tasks
-[Contest-1] (https://contest.yandex.ru/contest/27393/problems/)
+## Tasks
+[Contest-1](https://contest.yandex.ru/contest/27393/problems/)
