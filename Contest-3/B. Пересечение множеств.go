@@ -31,7 +31,7 @@ func intersection(set1, set2 *map[int]struct{}, res *[]int) {
 
 func main() {
 
-	reader := bufio.NewReaderSize(os.Stdin, 40002)
+	reader := bufio.NewReader(os.Stdin)
 
 	line1, err := reader.ReadString('\n')
 	if err != nil {
