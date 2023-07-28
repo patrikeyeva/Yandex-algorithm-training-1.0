@@ -9,7 +9,7 @@ import (
 )
 
 func binSearch(arr *[]int, elem int) bool {
-	l, r := 0, len(*arr)
+	l, r := 0, len(*arr)-1
 	for l < r {
 		m := (l + r) / 2
 		if (*arr)[m] >= elem {
@@ -19,7 +19,7 @@ func binSearch(arr *[]int, elem int) bool {
 		}
 
 	}
-	return l < len(*arr) && (*arr)[l] == elem
+	return (*arr)[l] == elem
 
 }
 
